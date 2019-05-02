@@ -64,3 +64,264 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container {
+	width: 880px;
+	/* TB LR */
+	margin: 0 auto;
+  }
+  
+  /* header */
+  
+  header nav {
+	display: inline-block;
+	width: 691px;
+	vertical-align: top;
+	margin-top: 35px;
+  }
+  
+  header nav a {
+	margin-right: 65px;
+	font-size: 14px;
+	color: gray;
+	text-decoration: none;
+  }
+  
+  header nav a:hover {
+	text-decoration: underline;
+  }
+  
+  header nav a:first-child {
+	margin-left: 0;
+  }
+  
+  header nav a:last-child {
+	margin-right: 0;
+  }
+  
+  header .logo {
+	margin-top: 25px;
+  }
+  
+  /* cta */
+  
+  .cta .cta-text {
+	display: inline-block;
+	vertical-align: top;
+	font-size: 77px;
+	margin-top: 120px;
+	text-align: center;
+	padding: 0px 75px;
+  }
+  
+  .cta .cta-text button {
+	background: white;
+	vertical-align: top;
+	margin-top: 6px;
+	padding: 8px 44px;
+	font-size: 17px;
+	border: 1px solid black;
+	cursor: pointer;
+  }
+  
+  .cta .cta-text button:hover {
+	background: black;
+	color: white;
+  }
+  
+  .cta img {
+	display: inline-block;
+	margin-top: 69px;
+  }
+  
+  .main-content {
+	border-top: 1px solid black;
+	margin-top: 76px;
+	padding-top: 39px;
+  }
+  
+  .main-content .top-content {
+	padding: 0 10px;
+  }
+  
+  .main-content .top-content .text-content {
+	width: 410px;
+	display: inline-block;
+	margin-right: 34px;
+  }
+  
+  .main-content .top-content .text-content:last-child {
+	margin-right: 0;
+  }
+  
+  .main-content .middle-img {
+	margin-top: 45px;
+  }
+  
+  .main-content .bottom-content {
+	margin-top: 37px;
+	padding: 0 10px;
+  }
+  
+  .main-content .bottom-content .text-content {
+	width: 275px;
+	display: inline-block;
+	margin-right: 12px;
+  }
+  
+  .main-content .bottom-content .text-content:last-child {
+	margin-right: 0;
+  }
+  
+  .contact {
+	margin-top: 57px;
+	border-top: 1px solid black;
+	padding: 39px 10px 0;
+  }
+  
+  .contact p {
+	margin: 20px 0;
+  }
+  
+  footer {
+	margin: 32px 0;
+	text-align: center;
+	font-size: 14px;
+  }
+  
+	/*  services */
+	
+	* {
+		box-sizing: border-box;
+	}
+	
+	.container2 {
+		margin: 0 auto;
+		width: 1024px;
+		text-align: center;
+	}
+
+	.serv-head {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+		margin: 50px;
+	}
+
+	.service-header-img {
+		display: inline-block;
+		margin: 50px;
+		text-align: center;
+	}
+	
+	.about {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-start;
+		margin: 10px 50px;
+		padding: 40px 10px;
+		border-bottom: 1px solid black;
+	}
+
+	.about h1 {
+		display: block;
+		font-size: 30px;
+	}
+
+	.about p {
+		display: block;
+		text-align: left;
+	}
+
+	.design {
+		display: flex;
+		flex-flow: column wrap;
+		justify-content: flex-start;
+		float: left;
+		width: 400px;
+		margin: 40px 20px 20px 50px;
+		padding: 30px;
+		border: 1px solid black;
+		background: lightgray;
+		text-align: left;
+	}
+
+	.design button {
+		width: 150px;
+		height: 40px;
+		margin: 20px 20px 0 0;
+		border-radius: 10px;
+	}
+
+.ux {
+	display: flex;
+	flex-flow: column wrap;
+	align-content: flex-start;
+	float: right;
+	width: 400px;
+	margin: 40px 50px 20px 20px;
+	padding: 30px;
+	border: 1px solid black;
+	background: lightgray;
+	text-align: left;
+}
+
+.marketing {
+	display: flex;
+	flex-flow: column wrap;
+	align-items: flex-start;
+	float: left;
+	width: 400px;
+	margin: 40px 20px 20px 50px;
+	padding: 30px;
+	border: 1px solid black;
+	background: lightgray;
+	text-align: left;
+}
+
+.webdev {
+	display: flex;
+	flex-flow: column wrap;
+	align-items: flex-start;
+	float: right;
+	width: 400px;
+	margin: 40px 50px 20px 20px;
+	padding: 30px;
+	border: 1px solid black;
+	background: lightgray;
+	text-align: left;
+}
+
+.ios {
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: flex-start;
+	float: left;
+	width: 400px;
+	margin: 40px 20px 20px 50px;
+	padding: 30px;
+	border: 1px solid black;
+	background: lightgray;
+	text-align: left;
+}
+
+.android {
+	display: flex;
+	flex-flow: column wrap;
+	align-items: flex-start;
+	float: right;
+	width: 400px;
+	margin: 40px 50px 20px 20px;
+	padding: 30px;
+	border: 1px solid black;
+	background: lightgray;
+	text-align: left;
+}
+
+footer {
+	display: flex;
+	align-items: flex-end;
+	border-top: 1px soild black;
+}
